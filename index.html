@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+
+            <header>
+         <h1 id="Topo">RedDoor Hotel</h1>
+            </header>
+            <ul>
+                <li><a class="ativo" href="">Home</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Acomodações">Acomodações</a></li>
+                <li><a href="#Fale Conosco">Contato</a></li>
+                <li><a href="https://www.instagram.com/reddoorhotel/">Instagram</a></li>
+            </ul>
+
+            <img src="Placa.lala.PNG" width="100px">
+
+            <section class="principal">
+    </div>
+        <div class="content">
+            <h1>PREPARE-SE PARA FAZER CHECK-IN NO MELHOR HOTEL</h1>
+            <p>Não Perca a Oportunidade de Ter a Melhor Experiência da<br> sua Vida.</p>
+            <button type="button" id="principal"><span></span>RESERVE JÁ</button>
+        </div>
+
+        </div>
+
+    <section class="book">
+        <div class="container flex_space">
+            <div class="text">
+                <h1>NOSSAS ESTADIAS</h1>
+            <div class="form">
+                <form class="grid">
+                    <input type="date" placeholder="Araival Date">
+                    <input type="date" placeholder="Departure Date">
+                    <input type="number" placeholder="Adultos">
+                    <input type="number" placeholder="Crianças">
+                    <input type="submit" placeholder="RESERVE">
+
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <h1 id="Sobre">Sobre o RedDoor Hotel</h1>
+
+        <picture>
+            <source media="(max-width:500px)"
+            srcset="recepção.lala.JPEG">
+            <img id="image" src="recepção.lala.JPEG" alt="recepção">
+        </picture>
+        </div>
+       
+    <p id="espaco">O RedDoor Hotel tornou-se conhecido como um dos hotéis mais populares da região,
+         a acomodação fica apenas 5 minutos a pé da praia e oferece internet gratuita na
+         áreas comuns. Nós temos os melhores funcionários na recepção para ajudar em tudo
+         que o nosso hóspede precisar saber sobre o hotel e da estadia. Então que tal tirar
+        uns dias para renovar as energias em um lugar tranquilo e próximo à natureza? Estamos
+        localizados a poucos minutos de uma das principais reservas naturais da região. Aproveite
+        para desfrutar, fazer caminhadas guiadas, sessões de Yoga e Meditação. Faça já a sua reserva
+        e venha descansar conosco!<br>
+    </p>
+
+    <a href="#Topo"><img src="sino-do-hotel.png" id="sino"></a>
+
+    <h1 id="Acomodações">Acomodações</h1>
+        
+    <div class="card">
+        <img src="quarto.lala.JPEG">
+       
+            <h2>Padrão Duplo</h2> <p id="precos">$430,00</p>
+            <button id="reserva">Reservar </button>
+    </div>
+
+        <div class="card">
+                <img src="quarto2.lala.JPEG">
+                <h2>Padrão Triplo</h2>
+                <p id="precos">$530,00</p>
+                <button id="reserva">Reservar </button>
+        </div>
+            
+            <div class="card">
+                <img src="suite.lala.JPEG">
+                <h2>Suíte Junior</h2>
+                <p id="precos">$499,99</p>
+                <button id="reserva">Reservar </button>
+                 
+            </div>
+        
+                <div class="card">
+                    <img src="vista.lala.JPEG">
+                    <h2>Vista Piscina Dupla</h2>
+                       <p id="precos">$380,00</p>
+                        <button id="reserva">Reservar </button>
+                </div>
+            
+                
+                    
+
+                    <div class="card">
+                        <img src="sem varanda.lala.JPEG">
+                        <h2>Sem Varanda</h2>
+                       <p id="precos">$280,00</p>
+                        <button id="reserva">Reservar </button>
+                    </div>
+                
+                  
+
+        <a href="#Topo"><img src="sino-do-hotel.png" id="sino"></a>
+    </div>
+
+        <h1 id="Fale Conosco">Fale Conosco!</h1>
+
+        <form action="joaopedrohenriquesrangel@gmail.com" method="post" id="iContato">
+
+            <fieldset>
+
+            <legend>Identificação do Usuário</legend>
+            <p>
+            Nome:
+            <input type="text" name="tNome" id="Nome" size="50" maxlength="80" placeholder="Nome completo"></input>
+            </p>
+
+        <p>
+            E-mail:
+            <input type="email" name="tEmail" id="Email" size="30" maxlength="30" placeholder="Digite seu e-mail">
+        </p>
+
+    <p>
+        Senha:
+        <input type="password" name="tSenha" id="Senha" size="20" maxlength="15" placeholder="Senha 10 dígitos">
+    </p>
+
+    <fieldset id="sexo">
+        <legend>Sexo:</legend>
+        
+          <input type="radio" name="tSexo" id="Masc"><label for="Masc"> Masculino</label> <br>
+
+          <input type="radio" name="tSexo" id="Fem" checked=""><label for="Fem"> Feminino</label>
+
+    </fieldset>
+
+              <fieldset>
+            <legend>Endereço do Usuário</legend>
+            <p>
+            Número:
+            <input type="number" name="tNum" id="Num" min="0" max="9999">
+        </p>
+
+        <p>
+            <label for="Est">Estado:</label>
+            <select name="tEst" id="Est">
+                <optgroup label="Região Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ" selected="">Rio de Janeiro</option>
+                <option value="MG">Mato Gerais</option>
+                <option value="ES">Espírito Santo</option>
+            </optgroup>
+        </fieldset>
+    </select>
+        </p>
+
+        <p>
+            <label for="Cid">Cidade:
+            <input type="text" name="tCid" id="Cid" size="30" maxlength="50" placeholder="Digite sua Cidade"></label>
+        </p>
+
+        <fieldset id="mensagem">
+            <legend>Mensagem do Usuário</legend>
+                <p>
+                    <label for="Msg">Mensagem:</label>
+                    <textarea name="tMsg" id="Msg" cols="45" rows="5" placeholder="Digite sua Mensagem" style="width: 250px; height: 50px;"></textarea>
+                </p>
+        </fieldset>
+
+            <p>
+            <input type="submit" value="Enviar">
+            </p>
+</form>
+        </div>
+    </main>
+
+    <a href="#Topo"><img src="sino-do-hotel.png" id="sino"></a>
+
+
+    <footer id="rodape">
+            
+        Copyright 2023 - by Lanna Blanco. e João Pedro H.
+        <a href="https://www.instagram.com/reddoorhotel/" target="_blank">instagram</a>
+        RedDoor Hotel
+    </footer>
+</section>
+
+</body>
+</html>
